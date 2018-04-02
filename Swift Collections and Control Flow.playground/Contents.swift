@@ -1,5 +1,15 @@
-//: Playground - noun: a place where people can play
+// Swift Collections and Controlo Flow
 
-import UIKit
+/*
+ -------
+ Arrays
+ -------
+ */
 
-var str = "Hello, playground"
+var todo: [String] = [
+    "Finish collection course", // <- What it's called string literals
+    "Buy groceries",
+    "Respond to emails"
+]
+
+var numbers: [Int] = [1, 2, 3]
