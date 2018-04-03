@@ -55,4 +55,6 @@ airportCodes
  ------------------------------
  */
 
-let newYorkAirport = airportCodes["LGA"]
+let newYorkAirport = airportCodes["LGA"] //
+let orlandoAirport = airportCodes["MCO"] // both are of optional values
+// Dictionary always return optional values!
