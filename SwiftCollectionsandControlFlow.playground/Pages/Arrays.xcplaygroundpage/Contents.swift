@@ -1,4 +1,4 @@
-// Swift Collections and Controlo Flow
+// Swift Collections and Control Flow
 
 /*
  -------
