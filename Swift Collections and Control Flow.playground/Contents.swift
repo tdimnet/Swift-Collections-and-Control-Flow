@@ -30,9 +30,9 @@ todo += ["Continue learning Swift"] // -> alse a way to update todo array (Unary
 
 
 /*
- -------
+ ----------------
  Immutable Arrays
- -------
+ ----------------
  */
 
 let secondTaskList: [String] = ["Mow the lawn"]
@@ -41,9 +41,9 @@ let secondTaskList: [String] = ["Mow the lawn"]
 
 
 /*
- -------
+ -------------------
  Reading from Arrays
- -------
+ -------------------
  */
 
 let firstTask: String = todo[0] // -> create the new constants but do not remove the first item of the array, only fill in the constant firstTask
@@ -51,12 +51,36 @@ let thirdTask: String = todo[2] // -> target the third element of the array
 
 
 /*
- -------
+ ----------------------------------------------------------
  Modifying Existing Values in an Array OR mutating an array
- -------
+ ----------------------------------------------------------
  */
 
 todo[4] = "Brush teeth"
 todo[0] = "Watch Treehouse content"
 
-todo
+
+/*
+ --------------------
+ Insert Using Indexes
+ --------------------
+ */
+
+todo.insert("Watch TV", at: 2)
+
+
+/*
+ --------------------------
+ Removing Items from Arrays
+ --------------------------
+ */
+
+todo.remove(at: 2)
+
+// Max length of the array
+todo.count
+
+
+
+
+
