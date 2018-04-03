@@ -38,3 +38,13 @@ todo += ["Continue learning Swift"] // -> alse a way to update todo array (Unary
 let secondTaskList: [String] = ["Mow the lawn"]
 // secondTaskList.append("Pay bills") -> error: will not work because secondTaskList is an immutable array
 // secondTaskList += ["someValue"] -> error here too
+
+
+/*
+ -------
+ Reading from Arrays
+ -------
+ */
+
+let firstTask: String = todo[0] // -> create the new constants but do not remove the first item of the array, only fill in the constant firstTask
+let thirdTask: String = todo[2] // -> targ
