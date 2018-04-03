@@ -80,6 +80,15 @@ todo.remove(at: 2)
 // Max length of the array
 todo.count
 
+/*
+ ------------------------------
+ Dealing with Non Existent Data
+ ------------------------------
+ */
+
+
+
+
 
 
 

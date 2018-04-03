@@ -48,3 +48,11 @@ airportCodes["DXB"] = nil
 airportCodes.removeValue(forKey: "CDG")
 
 airportCodes
+
+/*
+ ------------------------------
+ Dealing with Non Existent Data
+ ------------------------------
+ */
+
+let newYorkAirport = airportCodes["LGA"]
