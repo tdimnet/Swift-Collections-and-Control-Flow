@@ -14,3 +14,9 @@ let todo: [String] = [
 for task in todo {
     print(task)
 }
+
+// Ranges
+
+for number in 1...10 {
+    print("\(number) times 5 is equal to \(number * 5)")
+}
