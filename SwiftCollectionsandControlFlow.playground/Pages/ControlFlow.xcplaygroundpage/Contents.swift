@@ -55,7 +55,7 @@ repeat {
 
 // If Statements
 
-var temperature: Int = 9
+let temperature: Int = 14
 
 if temperature < 12 {
     print("It's getting cold. Let's get that jacket out!")
@@ -65,6 +65,27 @@ if temperature < 12 {
     print("It feels great outside! A t-shirt will do.")
 }
 
+
+// Logical Operators
+
+if temperature > 7 && temperature < 12 {
+    print("Might want to wear a scarf with that jacket")
+}
+
+let isRaining: Bool = false
+let isSnowing: Bool = true
+
+if isRaining || isSnowing {
+    print("Get out those boots!")
+}
+
+if !isRaining {
+    print("Yay the sun is out")
+}
+
+if (isRaining || isSnowing) && temperature < 2 {
+    print("Definitely get the leather gloves out!")
+}
 
 
 
