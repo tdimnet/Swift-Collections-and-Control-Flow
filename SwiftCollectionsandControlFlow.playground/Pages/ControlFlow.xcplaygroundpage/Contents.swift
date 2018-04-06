@@ -96,7 +96,3 @@ if (isRaining || isSnowing) && temperature < 2 {
 
 
 
-
-
-
-

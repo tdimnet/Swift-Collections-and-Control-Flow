@@ -4,5 +4,6 @@
         <page name='Dictionaries'/>
         <page name='Arrays'/>
         <page name='ControlFlow'/>
+        <page name='Switch'/>
     </pages>
 </playground>
